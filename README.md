@@ -10,10 +10,10 @@
 
 ## Introduction:
   Living in a world driven by social media, we are constantly surrounded by other people and their opinions. While the internet has connected people from all over the world and allowed them to collaborate and share their knowledge, it has also led to an uptick in crime. Cyberbullying and online harassment are just two of the many problems that currently plague the internet. 
-More often than not, victims of cyber crimes don’t come forward and even if they do report the harmful content, action taken is too little too late.
+More often than not, victims of cyber crimes don’t come forward and even if they do report the harmful content, action taken is too little too late. <br><br>
   As young students ourselves, we have seen the kind of hatred people online are capable of firsthand. Which is why we built CyberFence. 
-CyberFence is designed with the intention of being a resource that can bridge the gap between law enforcement agencies and social media corporations like Twitter by using publicly available tweets to flag people who are repeat offenders. 
-  Currently, CyberFence scrapes tweets from Twitter using keywords generated from a Machine Learning algorithm and obtains a list of users and their tweets for a 24 hour period that might be actively engaging in cyberbullying and harassment. We then pass this data to a NLP model that classifies the tweet. We then process this dataset to look for any repeat offenders. If flagged we would pass this information directly to law enforcement agencies to take action.
+CyberFence is designed with the intention of being a resource that can bridge the gap between law enforcement agencies and social media corporations like Twitter by using publicly available tweets to flag people who are repeat offenders. <br><br>
+  Currently, CyberFence scrapes tweets from Twitter using keywords generated from a Machine Learning algorithm and obtains a list of users and their tweets for a 24 hour period that might be actively engaging in cyberbullying and harassment. We then pass this data to a NLP model that classifies the tweet. We then process this dataset to look for any repeat offenders. If flagged we would pass this information directly to law enforcement agencies to take action.<br>
 ### Our main goal with CyberFence is to help curb cyberbullying in whatever small way we can. If we succeed in making even one individual's life better we would have succeeded in our goal.
   
 ## Demo Video Link:
