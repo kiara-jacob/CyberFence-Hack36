@@ -26,14 +26,24 @@ CyberFence is designed with the intention of being a resource that can bridge th
   
 ## Table of Contents:
 - streamlit_app.py - contains the code for the streamlit pages
+- src folder - contains models training and keywords extraction script
 - data folder - contains the datasets generated using keywords
 - harassment_twint.py and bullying_twint.py - contains the Twint code used to generate the tweets
+- infer.py - makes inferences on the NLP models to detect cyber bullying and hatespeech in tweets
+- preprocess.py - to preprocess the tweets data
+- backend.py - returns the dataset with the users information and tweets that contain hatespeech and cyberbullying from the last 24 hours
+
+## Instructions to run the code
+```
+streamlit run streamlit_app.py
+```
 
 ## Technology Stack:
   1) Python
-  2) Machine Learning (NLP)
-  3) Streamlit
-  4) Twit Twitter Tool
+  2) PyTorch
+  3) Machine Learning (NLP)
+  4) Streamlit
+  5) Twint Twitter Tool
   
 ## Track: Tech Against Crime
 
