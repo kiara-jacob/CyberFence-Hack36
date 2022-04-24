@@ -48,4 +48,4 @@ Team Name: Team Wonder Women
 * https://github.com/LIAAD/yake
 
 ### Made at:
-<a href="https://hack36.com"> <img src="https://cutt.ly/BuiltAtHack36" height=24px> </a>
+<a href="https://hack36.com"> <img src="https://cutt.ly/BuiltAtHack36" height=24px></a>
