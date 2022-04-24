@@ -16,7 +16,6 @@ CyberFence is designed with the intention of being a resource that can bridge th
   Currently, CyberFence scrapes tweets from Twitter using keywords generated from [YAKE](https://github.com/LIAAD/yake) and obtains a list of users and their tweets for a 24 hour period that might be actively engaging in cyberbullying and harassment. We then pass this data to a finetuned NLP model (BERT) that predicts whether the tweet is cyberbullying/hatespeech or not. We then process this dataset to look for any repeat offenders. If flagged we would pass this information directly to law enforcement agencies to take action.<br>
 ### Our main goal with CyberFence is to help curb cyberbullying in whatever small way we can. If we succeed in making even one individual's life better we would have succeeded in our goal.
 
-## Instructions to run the code
   
 ## Demo Video Link:
   <a href="https://youtu.be/dQw4w9WgXcQ">https://youtu.be/dQw4w9WgXcQ</a>
@@ -26,6 +25,9 @@ CyberFence is designed with the intention of being a resource that can bridge th
   
   
 ## Table of Contents:
+- streamlit_app.py - contains the code for the streamlit pages
+- data folder - contains the datasets generated using keywords
+- harassment_twint.py and bullying_twint.py - contains the Twint code used to generate the tweets
 
 ## Technology Stack:
   1) Python
@@ -34,6 +36,7 @@ CyberFence is designed with the intention of being a resource that can bridge th
   4) Twit Twitter Tool
   
 ## Track: Tech Against Crime
+
 ## Contributors:
 
 Team Name: Team Wonder Women
