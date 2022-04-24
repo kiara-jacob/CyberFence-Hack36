@@ -15,6 +15,8 @@ More often than not, victims of cyber crimes don’t come forward and even if th
 CyberFence is designed with the intention of being a resource that can bridge the gap between law enforcement agencies and social media corporations like Twitter by using publicly available tweets to flag people who are repeat offenders. <br><br>
   Currently, CyberFence scrapes tweets from Twitter using keywords generated from [YAKE](https://github.com/LIAAD/yake) and obtains a list of users and their tweets for a 24 hour period that might be actively engaging in cyberbullying and harassment. We then pass this data to a finetuned NLP model (BERT) that predicts whether the tweet is cyberbullying/hatespeech or not. We then process this dataset to look for any repeat offenders. If flagged we would pass this information directly to law enforcement agencies to take action.<br>
 ### Our main goal with CyberFence is to help curb cyberbullying in whatever small way we can. If we succeed in making even one individual's life better we would have succeeded in our goal.
+
+## Instructions to run the code
   
 ## Demo Video Link:
   <a href="https://youtu.be/dQw4w9WgXcQ">https://youtu.be/dQw4w9WgXcQ</a>
