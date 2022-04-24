@@ -1,3 +1,4 @@
+import backend
 import streamlit as st
 import pandas as pd
 from streamlit_option_menu import option_menu
@@ -24,32 +25,24 @@ with st.sidebar:
     )
 
 if selected == "Cyber Bullying Detector":
-    st.text(f"You have selected bullying model") #replace with the model page
+    st.text(f"Cyberbullying Information") #replace with the model page
 
     with dataset:
-        st.header("Our dataset")
-        data = pd.read_csv("data/data_final.csv")
+        
+        data, user_info = backend.final_predictions('bullying')
+        st.header("Potential Bullying Report")
         st.write(data.head())
+        st.header("User Report")
+        st.write(user_info.head())
 
-    with features:
-        st.header("Features")
+if selected == "Hate Speech Detector":
+    st.text(f"Hate Speech Information") #replace with the model page
 
-    with modelTraining:
-        st.header("The model")
-
-if selected == "Harassment Detector":
-    st.text(f"You have selected harassment model") #replace with the model page
-
-    with dataset:
-        st.header("Our dataset")
-        data = pd.read_csv("data/data_final_harassment.csv")
-        st.write(data.head())
-
-    with features:
-        st.header("Features")
-
-    with modelTraining:
-        st.header("The model")
+    data, user_info = backend.final_predictions('hatespeech')
+    st.header("Potential Hate Speech Report")
+    st.write(data.head())
+    st.header("User Report")
+    st.write(user_info.head())
 
 
 
